@@ -24,5 +24,14 @@ var returnValue=isEvenOrOddNum(0);
 console.log(returnValue);
 
 console.log("-------------Step 3--------------");
-
-
+function wordLength(len){
+    var Length=len.length;
+   var res=(Length%2==0?"Even":"Odd");
+   return res;
+}
+var result=wordLength("JavaScript");
+console.log(result);
+var result=wordLength("developer");
+console.log(result);
+var result=wordLength("Google");
+console.log(result);

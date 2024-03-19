@@ -4,6 +4,7 @@ function gradeCalculation(marks){
     if (marks==null || marks<=0 || isNaN(+marks)) {
         console.log(`Invalid input: ${marks}`);
     } else {
+        
        if (marks>=90) {
         console.log(`Funtastic marks: ${marks}, Your grade is A+`);
         
